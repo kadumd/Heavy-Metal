@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IM Fell Double Pica', serif;
+    font-family: italic;
+    color: #130B0B;
+    background-color: #FFFFFF;
+}
+
+header,nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 35%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 20px 145px; 
+}
+
+#imagem {
+    display: flex;
+    padding: 10px 0px 0px 135px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width:  1238px;
+    
+}
+
+.logo {
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.imagems {
+    display: flex;
+    height: 300px;
+    width: 200px;
+    padding: 30px 0px 0px 0px;
+}
+
+.img{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    padding: 30px 0px 0px 0px;
+}
+
+#titleAEsquerda {
+    display: flex;
+    font-size: 32px;
+    padding: 30px 0px 0px 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+#titleADireita {
+    display: flex;
+    font-size: 32px;
+    padding: 30px 100px 0px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#textoAEsquerda {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-direction: column;
+    height: 200px;
+    width: 275px;
+    text-align: right;
+}
+
+#textoADireita {
+    display: flex;
+    font-size: 24px;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 275px;
+    text-align: left;
+}
+
+footer {
+    gap: 50px;
+    display: flex;
+}
